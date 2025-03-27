@@ -1,9 +1,10 @@
-package com.example.rickapp.presentation
+package com.example.rickapp
 
 import app.cash.turbine.test
 import com.example.rickapp.data.model.Character
 import com.example.rickapp.data.model.CharacterResponse
 import com.example.rickapp.data.model.Origin
+import com.example.rickapp.presentation.CharacterViewModel
 import com.example.rickapp.repository.CharacterRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
